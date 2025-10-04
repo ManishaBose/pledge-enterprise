@@ -3,7 +3,7 @@ export default function Home() {
     <div className="flex flex-col h-screen justify-center">
       <div className="flex justify-center">
         <div className="flex flex-col">
-          <div className="text-3xl font-bold p-4 pl-0">
+          <div className="text-3xl font-bold p-4 pl-0 text-center">
             We’re preparing something great for you — products arriving soon!
           </div>
         </div>

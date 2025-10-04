@@ -12,24 +12,24 @@ export const HomePage = function () {
           Surgical Products — from Walkers and Wheelchairs to Commode Stools and
           Accessories. Delivering comfort, reliability, and care across India.
         </p>
-      </div>
 
-      <div className="py-32 sm:py-48 lg:py-56">
-        <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
-          Why choose us?
+        <div className="py-32 sm:py-48 lg:py-56">
+          <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
+            Why choose us?
+          </p>
+
+          <WhyChooseUs />
+        </div>
+        <h2 className="text-3xl font-semibold tracking-tight text-balance text-gray-800 sm:text-4xl">
+          About Us!
+        </h2>
+        <p className="mt-6 text-lg/8 text-pretty text-gray-700">
+          Founded by Ritesh Gupta, Pledge Enterprise combines years of industry
+          experience with a commitment to quality manufacturing and timely
+          supply. Whether you order online via Amazon and Flipkart or through
+          our offline network, you can count on consistent excellence.
         </p>
-
-        <WhyChooseUs />
       </div>
-      <h2 className="text-3xl font-semibold tracking-tight text-balance text-gray-800 sm:text-4xl">
-        About Us!
-      </h2>
-      <p className="mt-6 text-lg/8 text-pretty text-gray-700">
-        Founded by Ritesh Gupta, Pledge Enterprise combines years of industry
-        experience with a commitment to quality manufacturing and timely supply.
-        Whether you order online via Amazon and Flipkart or through our offline
-        network, you can count on consistent excellence.
-      </p>
     </div>
   );
 };
