@@ -29,8 +29,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <AppBar />
-        {children}
+        <div className="bg-gradient-to-r from-rose-100 to-teal-100">
+          <AppBar />
+          {children}
+        </div>
       </body>
     </html>
   );
